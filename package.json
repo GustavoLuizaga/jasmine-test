@@ -1,0 +1,20 @@
+{
+  "name": "jasmine-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "jasmine",
+    "test:async-await": "jasmine spec/Async-await-fetch-api.spec.js",
+    "test:tres-en-raya": "jasmine spec/VerificarGanadorTresEnRaya.spec.js",
+    "test:callbacks": "jasmine spec/Callback-Function.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Test project for Jasmine",
+  "devDependencies": {
+    "jasmine": "^5.11.0"
+  }
+}
